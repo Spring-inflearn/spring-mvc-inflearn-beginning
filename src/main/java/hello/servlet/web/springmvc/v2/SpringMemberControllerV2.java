@@ -32,11 +32,12 @@ public class SpringMemberControllerV2 {
 
         Member member = new Member(username, age);
         memberRepository.save(member);
-        
+
         ModelAndView mav = new ModelAndView("save-result");
         mav.addObject("member", member);
         return mav;
     }
+
     @RequestMapping
     public ModelAndView members() {
         List<Member> members = memberRepository.findAll();
