@@ -5,3 +5,5 @@
 ## 섹션 4. MVC 프레임워크 만들기
   
 
+### 정리
+https://velog.io/@shkim1199/%EC%84%9C%EB%B8%94%EB%A6%BF-JSP
